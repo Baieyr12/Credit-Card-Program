@@ -1,0 +1,54 @@
+//======================================================================
+// CS I : # Credit Card Program
+// Semester : # Fall Semester
+//
+// # Bailey Rochelle
+// # Section 6
+//
+// Description: Checks credit card interest rates and fees
+//======================================================================
+
+import java.util.Scanner;
+public class CreditCard
+{
+public static void main(String[] args)
+	{
+		String name;
+		String level;
+		double balance;
+		String payment;
+		String correct;
+	
+		System.out.println("Credit Card Program By: Bailey Rochelle");
+	
+		Scanner scan = new Scanner(System.in);
+	
+		System.out.println("What is the Customer's name?:");
+		name = scan.nextLine();
+	
+		System.out.println("What is the customer's member level?:");
+		level = scan.nextLine();
+		
+		System.out.println("What is the customer's current balance?:");
+		balance = scan.nextDouble();
+		scan.nextLine();
+		
+		System.out.println("Was the payment late?:");
+		payment = scan.nextLine();	
+		
+		System.out.println("Customer Name: " + name);
+		System.out.println("Customer Member Level: " + level);
+		System.out.println("Customer Balance: $" + balance + "0");
+		System.out.println("Was the payment late?:" + payment);
+		System.out.println("Is all of the following information correct? (Yes or No)");
+		correct = scan.nextLine();
+		
+		{
+			if ("No" == correct)
+				System.out.println("Sorry! Try Again!");
+			
+			else
+				{System.out.println("Good! Computing your input...");}
+		}
+	}
+}
