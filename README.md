@@ -94,12 +94,3 @@ compare the different customer levels
  ...
 }
 ...
-Point Breakdown (20 points total)
-The program compiles on command line Required for non-zero score
-Proper indentation and spacing 4 pts
-Including a proper header comment 4 pts
-The program prints your name 4 pts
-The program asks for proper inputs 4 pts
-The program prints the right output 4 pts
-As always, keep in mind that your program must compile and run from the command line or it
-will get a score near 0, even if it fulfills some of the other requirements.
